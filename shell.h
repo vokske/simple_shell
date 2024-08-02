@@ -10,4 +10,6 @@
 
 extern char **environ;
 
+int read_command(void);
+
 #endif
