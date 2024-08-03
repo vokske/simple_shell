@@ -10,7 +10,7 @@ int main(void)
 	while (1)
 	{
 		printf("$ ");
-		read_command();
+		_cmdline_with_args();
 	}
 
 	return(0);

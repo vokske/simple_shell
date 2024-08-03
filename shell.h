@@ -11,5 +11,6 @@
 extern char **environ;
 
 int read_command(void);
+int _cmdline_with_args(void);
 
 #endif
